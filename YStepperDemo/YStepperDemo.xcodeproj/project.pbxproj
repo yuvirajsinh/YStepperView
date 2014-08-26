@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B77C57019AC9C1100D34D99 /* YStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B77C56F19AC9C1100D34D99 /* YStepperView.m */; };
+		8B77C57219ACA4D100D34D99 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B77C57119ACA4D100D34D99 /* QuartzCore.framework */; };
+		8BB3726019A5D216007EC3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3725F19A5D216007EC3BB /* Foundation.framework */; };
+		8BB3726219A5D216007EC3BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3726119A5D216007EC3BB /* CoreGraphics.framework */; };
+		8BB3726419A5D216007EC3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3726319A5D216007EC3BB /* UIKit.framework */; };
+		8BB3726A19A5D217007EC3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3726819A5D217007EC3BB /* InfoPlist.strings */; };
+		8BB3726C19A5D217007EC3BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3726B19A5D217007EC3BB /* main.m */; };
+		8BB3727019A5D217007EC3BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3726F19A5D217007EC3BB /* AppDelegate.m */; };
+		8BB3727319A5D217007EC3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3727119A5D217007EC3BB /* Main.storyboard */; };
+		8BB3727619A5D217007EC3BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3727519A5D217007EC3BB /* ViewController.m */; };
+		8BB3727819A5D217007EC3BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3727719A5D217007EC3BB /* Images.xcassets */; };
+		8BB3727F19A5D217007EC3BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3727E19A5D217007EC3BB /* XCTest.framework */; };
+		8BB3728019A5D217007EC3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3725F19A5D216007EC3BB /* Foundation.framework */; };
+		8BB3728119A5D217007EC3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB3726319A5D216007EC3BB /* UIKit.framework */; };
+		8BB3728919A5D217007EC3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3728719A5D217007EC3BB /* InfoPlist.strings */; };
+		8BB3728B19A5D217007EC3BB /* YStepperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3728A19A5D217007EC3BB /* YStepperDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB3728219A5D217007EC3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB3725419A5D216007EC3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB3725B19A5D216007EC3BB;
+			remoteInfo = YStepperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B77C56E19AC9C1100D34D99 /* YStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YStepperView.h; sourceTree = "<group>"; };
+		8B77C56F19AC9C1100D34D99 /* YStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YStepperView.m; sourceTree = "<group>"; };
+		8B77C57119ACA4D100D34D99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BB3725C19A5D216007EC3BB /* YStepperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YStepperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB3725F19A5D216007EC3BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BB3726119A5D216007EC3BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BB3726319A5D216007EC3BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BB3726719A5D216007EC3BB /* YStepperDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YStepperDemo-Info.plist"; sourceTree = "<group>"; };
+		8BB3726919A5D217007EC3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BB3726B19A5D217007EC3BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BB3726D19A5D217007EC3BB /* YStepperDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YStepperDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8BB3726E19A5D217007EC3BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BB3726F19A5D217007EC3BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BB3727219A5D217007EC3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB3727419A5D217007EC3BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BB3727519A5D217007EC3BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BB3727719A5D217007EC3BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BB3727D19A5D217007EC3BB /* YStepperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YStepperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB3727E19A5D217007EC3BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BB3728619A5D217007EC3BB /* YStepperDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YStepperDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8BB3728819A5D217007EC3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BB3728A19A5D217007EC3BB /* YStepperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YStepperDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB3725919A5D216007EC3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77C57219ACA4D100D34D99 /* QuartzCore.framework in Frameworks */,
+				8BB3726219A5D216007EC3BB /* CoreGraphics.framework in Frameworks */,
+				8BB3726419A5D216007EC3BB /* UIKit.framework in Frameworks */,
+				8BB3726019A5D216007EC3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB3727A19A5D217007EC3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3727F19A5D217007EC3BB /* XCTest.framework in Frameworks */,
+				8BB3728119A5D217007EC3BB /* UIKit.framework in Frameworks */,
+				8BB3728019A5D217007EC3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B77C56D19AC9C1100D34D99 /* YStepperView */ = {
+			isa = PBXGroup;
+			children = (
+				8B77C56E19AC9C1100D34D99 /* YStepperView.h */,
+				8B77C56F19AC9C1100D34D99 /* YStepperView.m */,
+			);
+			name = YStepperView;
+			path = ../../YStepperView;
+			sourceTree = "<group>";
+		};
+		8BB3725319A5D216007EC3BB = {
+			isa = PBXGroup;
+			children = (
+				8BB3726519A5D216007EC3BB /* YStepperDemo */,
+				8BB3728419A5D217007EC3BB /* YStepperDemoTests */,
+				8BB3725E19A5D216007EC3BB /* Frameworks */,
+				8BB3725D19A5D216007EC3BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB3725D19A5D216007EC3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3725C19A5D216007EC3BB /* YStepperDemo.app */,
+				8BB3727D19A5D217007EC3BB /* YStepperDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB3725E19A5D216007EC3BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B77C57119ACA4D100D34D99 /* QuartzCore.framework */,
+				8BB3725F19A5D216007EC3BB /* Foundation.framework */,
+				8BB3726119A5D216007EC3BB /* CoreGraphics.framework */,
+				8BB3726319A5D216007EC3BB /* UIKit.framework */,
+				8BB3727E19A5D217007EC3BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB3726519A5D216007EC3BB /* YStepperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B77C56D19AC9C1100D34D99 /* YStepperView */,
+				8BB3726E19A5D217007EC3BB /* AppDelegate.h */,
+				8BB3726F19A5D217007EC3BB /* AppDelegate.m */,
+				8BB3727119A5D217007EC3BB /* Main.storyboard */,
+				8BB3727419A5D217007EC3BB /* ViewController.h */,
+				8BB3727519A5D217007EC3BB /* ViewController.m */,
+				8BB3727719A5D217007EC3BB /* Images.xcassets */,
+				8BB3726619A5D216007EC3BB /* Supporting Files */,
+			);
+			path = YStepperDemo;
+			sourceTree = "<group>";
+		};
+		8BB3726619A5D216007EC3BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3726719A5D216007EC3BB /* YStepperDemo-Info.plist */,
+				8BB3726819A5D217007EC3BB /* InfoPlist.strings */,
+				8BB3726B19A5D217007EC3BB /* main.m */,
+				8BB3726D19A5D217007EC3BB /* YStepperDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB3728419A5D217007EC3BB /* YStepperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3728A19A5D217007EC3BB /* YStepperDemoTests.m */,
+				8BB3728519A5D217007EC3BB /* Supporting Files */,
+			);
+			path = YStepperDemoTests;
+			sourceTree = "<group>";
+		};
+		8BB3728519A5D217007EC3BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3728619A5D217007EC3BB /* YStepperDemoTests-Info.plist */,
+				8BB3728719A5D217007EC3BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB3725B19A5D216007EC3BB /* YStepperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB3728E19A5D217007EC3BB /* Build configuration list for PBXNativeTarget "YStepperDemo" */;
+			buildPhases = (
+				8BB3725819A5D216007EC3BB /* Sources */,
+				8BB3725919A5D216007EC3BB /* Frameworks */,
+				8BB3725A19A5D216007EC3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YStepperDemo;
+			productName = YStepperDemo;
+			productReference = 8BB3725C19A5D216007EC3BB /* YStepperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB3727C19A5D217007EC3BB /* YStepperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB3729119A5D217007EC3BB /* Build configuration list for PBXNativeTarget "YStepperDemoTests" */;
+			buildPhases = (
+				8BB3727919A5D217007EC3BB /* Sources */,
+				8BB3727A19A5D217007EC3BB /* Frameworks */,
+				8BB3727B19A5D217007EC3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB3728319A5D217007EC3BB /* PBXTargetDependency */,
+			);
+			name = YStepperDemoTests;
+			productName = YStepperDemoTests;
+			productReference = 8BB3727D19A5D217007EC3BB /* YStepperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB3725419A5D216007EC3BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = rapidops;
+				TargetAttributes = {
+					8BB3727C19A5D217007EC3BB = {
+						TestTargetID = 8BB3725B19A5D216007EC3BB;
+					};
+				};
+			};
+			buildConfigurationList = 8BB3725719A5D216007EC3BB /* Build configuration list for PBXProject "YStepperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB3725319A5D216007EC3BB;
+			productRefGroup = 8BB3725D19A5D216007EC3BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB3725B19A5D216007EC3BB /* YStepperDemo */,
+				8BB3727C19A5D217007EC3BB /* YStepperDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB3725A19A5D216007EC3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3727819A5D217007EC3BB /* Images.xcassets in Resources */,
+				8BB3726A19A5D217007EC3BB /* InfoPlist.strings in Resources */,
+				8BB3727319A5D217007EC3BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB3727B19A5D217007EC3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3728919A5D217007EC3BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB3725819A5D216007EC3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77C57019AC9C1100D34D99 /* YStepperView.m in Sources */,
+				8BB3727619A5D217007EC3BB /* ViewController.m in Sources */,
+				8BB3727019A5D217007EC3BB /* AppDelegate.m in Sources */,
+				8BB3726C19A5D217007EC3BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB3727919A5D217007EC3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3728B19A5D217007EC3BB /* YStepperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB3728319A5D217007EC3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB3725B19A5D216007EC3BB /* YStepperDemo */;
+			targetProxy = 8BB3728219A5D217007EC3BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BB3726819A5D217007EC3BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3726919A5D217007EC3BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BB3727119A5D217007EC3BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3727219A5D217007EC3BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB3728719A5D217007EC3BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3728819A5D217007EC3BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB3728C19A5D217007EC3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BB3728D19A5D217007EC3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB3728F19A5D217007EC3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YStepperDemo/YStepperDemo-Prefix.pch";
+				INFOPLIST_FILE = "YStepperDemo/YStepperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BB3729019A5D217007EC3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YStepperDemo/YStepperDemo-Prefix.pch";
+				INFOPLIST_FILE = "YStepperDemo/YStepperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BB3729219A5D217007EC3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YStepperDemo.app/YStepperDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YStepperDemo/YStepperDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YStepperDemoTests/YStepperDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BB3729319A5D217007EC3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YStepperDemo.app/YStepperDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YStepperDemo/YStepperDemo-Prefix.pch";
+				INFOPLIST_FILE = "YStepperDemoTests/YStepperDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB3725719A5D216007EC3BB /* Build configuration list for PBXProject "YStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3728C19A5D217007EC3BB /* Debug */,
+				8BB3728D19A5D217007EC3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB3728E19A5D217007EC3BB /* Build configuration list for PBXNativeTarget "YStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3728F19A5D217007EC3BB /* Debug */,
+				8BB3729019A5D217007EC3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB3729119A5D217007EC3BB /* Build configuration list for PBXNativeTarget "YStepperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3729219A5D217007EC3BB /* Debug */,
+				8BB3729319A5D217007EC3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB3725419A5D216007EC3BB /* Project object */;
+}
