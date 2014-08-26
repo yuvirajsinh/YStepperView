@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.name         = 'YStepperView'
   s.version      = '0.0.1'
 
-  s.summary      = 'Custom Stepper View with text similar to Stepper in native iOS view.'
+  s.summary      = 'Custom Stepper View with visible value change.'
 
   s.description  = <<-DESC
   YStepperView is custom Stepper View. It is similar to the native Stepper view in iOS but allow user to see the current value of YStepperView.
