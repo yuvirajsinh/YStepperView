@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'YStepperView'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
 
   s.summary      = 'Custom Stepper View with visible value change.'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = 'yuvirajsinh'
   s.platform     = :ios, '7.0'
-  s.source       = { :git => 'https://github.com/yuvirajsinh/YStepperView.git', :tag => 'v0.0.1' }
+  s.source       = { :git => 'https://github.com/yuvirajsinh/YStepperView.git', :tag => 'v0.0.2' }
   s.source_files  = 'YStepperView/*.{h,m}'
 
   s.frameworks = 'QuartzCore'
