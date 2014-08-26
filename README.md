@@ -18,25 +18,35 @@ Import "YStepperView.h" in your ViewController.h file where you want to use this
 ```objc
 #import "YStepperView.h"
 ```
-In ViewController.m file
 
-To open YCameraViewController
+To create YStepperView
 ```objc
-YCameraViewController *camController = [[YCameraViewController alloc] initWithNibName:@"YCameraViewController" bundle:nil];
-camController.delegate=self;
-[self presentViewController:camController animated:YES completion:^{
-    // completion code
-}];
+YStepperView *yStepper = [[YStepperView alloc] initWithFrame:CGRectMake(10.0, 10.0, 120.0, 25.0)];
+[myView addSubview:yStepper];
 ```
-Using YCameraViewControllerDelegate
-```objc
--(void)didFinishPickingImage:(UIImage *)image{
-    // Use image as per your need
-}
--(void)yCameraControllerdidSkipped{
-    // Called when user clicks on Skip button on YCameraViewController view
-}
--(void)yCameraControllerDidCancel{
-    // Called when user clicks on "X" button to close YCameraViewController
-}
+Configure YStepperView
+
+Set YStepperView Color
+```
+[yStepper setStepperColor:[UIColor redColor] withDisableColor:nil];
+```
+Set YStepperView Text Label
+```
+[yStepper setTextColor:[UIColor blackColor]];
+[yStepper setTextLabelFont:[UIFont systemFontOfSize:15.0f]];
+```
+
+Set YStepperView Value Range
+```
+[yStepper setStepperRange:2 andMaxValue:5];
+```
+
+Set YStepperView Initial Value
+```
+[yStepper setValue:6];
+```
+
+Get YStepperView Current Value
+```
+[yStepper getValue];
 ```
