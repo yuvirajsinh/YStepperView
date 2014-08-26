@@ -152,7 +152,7 @@
     if (color) [textLabel setTextColor:color];
 }
 
-- (void)setStepperRange:(NSInteger)minValue andMaxValue:(NSInteger)maxValue{
+- (void)setStepperRange:(int)minValue andMaxValue:(int)maxValue{
     if (minValue>=maxValue){
         [self stepperLog:@"Invalud Range Value. maxValue must be greater than minValue."];
     }
@@ -167,7 +167,7 @@
     }
 }
 
-- (void)setValue:(NSInteger)defValue{
+- (void)setValue:(int)defValue{
     if (defValue<minRange || defValue>maxRange) {
         [self stepperLog:@"Invalud Value. Value must be within minRange and maxRange."];
     }

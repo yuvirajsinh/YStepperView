@@ -20,8 +20,8 @@
 - (void)setStepperColor:(UIColor *)color withDisableColor:(UIColor *)disColor;
 - (void)setTextLabelFont:(UIFont *)font;
 - (void)setTextColor:(UIColor *)color;
-- (void)setStepperRange:(NSInteger)minValue andMaxValue:(NSInteger)maxValue;
-- (void)setValue:(NSInteger)defValue;
+- (void)setStepperRange:(int)minValue andMaxValue:(int)maxValue;
+- (void)setValue:(int)defValue;
 - (NSInteger)getValue;
 
 @end
